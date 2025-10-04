@@ -1,0 +1,24 @@
+/* Heading color */
+.custom-heading {
+  color: #d97706;
+}
+
+/* Book title fixed amber color */
+.custom-title {
+  color: #d97706;
+}
+
+/* Button hover with amber */
+.custom-btn:hover {
+  background-color: #d97706 !important;
+  border-color: #d97706 !important;
+  color: #fff !important;
+}
+
+/* src/BookList.css */
+.alert-amber {
+  background-color: #d97706 !important; /* amber background */
+  color: #fff !important;               /* white text */
+  border: none !important;              /* remove default border */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}

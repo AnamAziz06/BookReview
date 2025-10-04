@@ -1,0 +1,129 @@
+.book-details-container {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Disable hover effect for all Bootstrap inputs */
+.form-control:hover,
+.form-select:hover,
+textarea.form-control:hover {
+  border-color: #ccc;  /* same as normal border */
+  box-shadow: none;    /* remove shadow/glow */
+}
+
+/* Optional: Keep amber border on focus */
+.form-control:focus,
+.form-select:focus,
+textarea.form-control:focus {
+  border-color: #d97706 !important;   /* amber color */
+  box-shadow: 0 0 0 0.2rem rgba(217, 119, 6, 0.25) !important;
+}
+
+
+/* Book Info Card */
+.book-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.book-title {
+  color: #d97706;
+  margin-bottom: 10px;
+}
+
+.book-rating {
+  font-weight: bold;
+}
+
+.rating-value {
+  color: #d97706;
+}
+
+.star-container {
+  margin-left: 8px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.reviews-heading {
+  color: #d97706;
+  margin-bottom: 10px;
+}
+
+.review-card {
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+.review-rating {
+  color: #d97706;
+  display: block;
+  margin-top: 5px;
+}
+
+/* Add Review Section */
+.add-review-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.rating-stars {
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc;
+  margin-right: 4px;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: #d97706;
+}
+
+.star:hover {
+  color: #b45309;
+}
+
+.btn-amber {
+  background-color: #d97706;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-amber:hover {
+  background-color: #b45309;
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 20px;
+}

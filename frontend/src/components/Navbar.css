@@ -1,0 +1,26 @@
+/* src/components/Navbar.css */
+
+/* Amber background */
+.custom-navbar {
+  background-color: #d97706 !important;
+}
+
+/* Navbar brand (logo text) */
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* Navbar links */
+.nav-link {
+  color: #f9f9f9 !important;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #fff !important;
+  background-color: #b45309; /* darker amber */
+  border-radius: 4px;
+  padding: 6px 10px;
+}
